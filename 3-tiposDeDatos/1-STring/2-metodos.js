@@ -138,31 +138,4 @@ console.log('----------------------------------------------')
 
 
 
-// nos dice con true o false si exsiste Monitor en nuestro string
-console.log(producto.includes('Monitor')); // true
-console.log(producto.includes('monitor')); // false
 
-
-// sumamos o comas bajas de  los producto2s y nuevas strings
-console.log(producto2 + 'con un precio de: ' + precio);
-console.log('el producto2', producto2, 'tiene un precio de ', precio);
-
-// temple strings ( variable las tenemos con ${} i le ponemos el string que queramos)
-console.log(`el producto2${producto2} tiene un precio de ${precio}`);
-
-const producto3 = '      Monitor 20 pulgadas       ';
-console.log(producto3)
-console.log(producto3.length);
-
-
-//eliminar del inicio los espacios en blanco..
-console.log(producto3.trimStart());
-
-// elimiar del final los espacio
-console.log(producto3.trimEnd());
-
-// para eliminar espacios en blanco inicio y final
-console.log(producto3.trimStart().trimEnd());
-
-// para eliminar inicio y final espacios en blanco
-console.log(producto3.trim());
