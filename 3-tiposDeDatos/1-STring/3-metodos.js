@@ -72,3 +72,37 @@ console.log(`${producto3.trimEnd()}`); // Devuelve "   Teclado mecánico"
 // 📌 trim() elimina los espacios en blanco tanto al inicio como al final de la cadena.
 console.log('------------ Método .trim() ---------')
 console.log(`${producto3.trim()}`); // Devuelve "Teclado mecánico"
+
+
+
+// 📌 MÉTODO match()
+
+const box = 'Esta es una Caja Caja  2 48 5'
+
+console.log('------------ Método .match() ---------')
+
+// El método .match() busca todas las coincidencias de letras dentro de la cadena y devuelve las encontradas en una lista array.
+// Si se utiliza una expresión regular como parámetro, devuelve un array con todas las coincidencias encontradas.
+console.log(box.match(/[caja]/g)); // Devuelve ['a', 'a', 'a','j', 'a', 'a','j', 'a']
+
+// También se puede utilizar para buscar mayúsculas o números dentro de la cadena.
+console.log(box.match(/[A-Z]/g)); // Devuelve [ 'E', 'C', 'C' ]
+console.log(box.match(/[0-9]/g)); // Devuelve [ '2', '4', '8', '5' ]
+
+// Si se proporciona una cadena como parámetro, busca esa cadena en toda la cadena de texto y devuelve un array con la cadena encontrada junto con su índice y la cadena de entrada completa.
+console.log(box.match('una')); // Devuelve ['una', index: 8, input: 'Esta es una Caja Caja  2 48 5', groups: undefined]
+
+
+
+// 📌 EXPRESIONES REGULARES
+
+console.log('------------ EXPRESIONES REGULARES ---------')
+
+// Las expresiones regulares sirven para buscar, capturar o reemplazar texto utilizando patrones.
+// Se definen utilizando el constructor RegExp o utilizando una expresión regular literal, encerrando el patrón entre barras (/).
+
+const paragraph = 'El veloz zorro marrón salta sobre el perro perezoso. Ladró.';
+const capturingRegex = /(?<animal>zorro|gato) marrón/;
+const found = paragraph.match(capturingRegex);
+
+console.log(found.groups); // Devuelve { animal: 'zorro' }
