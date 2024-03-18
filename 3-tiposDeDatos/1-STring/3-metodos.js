@@ -38,7 +38,6 @@ console.log('------------ Método .includes() ---------')
 
 console.log(text.includes('feliz')); // Devuelve true
 console.log(text.includes('hola')); // Devuelve false
-console.log('----------------------------------------------')
 
 
 
@@ -51,4 +50,25 @@ console.log(text.split(' ')); // ['gato', 'feliz', 'y', 'perro', 'triste']
 console.log(text.split(' , ')); // ['gato feliz y perro triste']
 console.log(text.split(',')); // ['gato feliz y perro triste']
 console.log(text.split('hola')); // ['gato feliz y perro triste']
-console.log('----------------------------------------------')
+
+
+
+
+// 📌 .trimStart() elimina los espacios en blanco al inicio de la cadena.
+
+const producto3 = '   Teclado mecánico';
+
+console.log('------------ Método .trimStart() ---------')
+
+console.log(`${producto3.trimStart()}`); // Devuelve "Teclado mecánico"
+
+
+// 📌 .trimEnd() elimina los espacios en blanco al final de la cadena.
+console.log('------------ Método .trimEnd() ---------')
+
+console.log(`${producto3.trimEnd()}`); // Devuelve "   Teclado mecánico"
+
+
+// 📌 trim() elimina los espacios en blanco tanto al inicio como al final de la cadena.
+console.log('------------ Método .trim() ---------')
+console.log(`${producto3.trim()}`); // Devuelve "Teclado mecánico"
