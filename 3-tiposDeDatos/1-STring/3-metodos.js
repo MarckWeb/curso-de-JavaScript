@@ -106,3 +106,37 @@ const capturingRegex = /(?<animal>zorro|gato) marrón/;
 const found = paragraph.match(capturingRegex);
 
 console.log(found.groups); // Devuelve { animal: 'zorro' }
+
+
+//EXPRESIONES REGULARES = formula, para buscar en un texto cierta coincidencia.
+
+//son secuencias de caracteres que forma un patron de busqueda principalmente utilizada para la busqueda de patrones de cadenas de caracteres u operaciones de susutitucion
+let string1 = 'hola mundo adios mundo chao mundo'
+let frase = new RegExp('mundo', 'ig')
+console.log(frase.test(string1))
+
+// RegExp
+// El objeto RegExp se utiliza para hacer coincidir texto con un patrón. se debe utilizar cuando la expresion peramnecera constante y no en un bucle que se repita varias veces.
+
+//Las siguientes tres expresiones crean el mismo objeto de expresión regular:
+
+let er = /ab+c/i; // notación literal
+let ar = new RegExp('ab+c', 'i') // constructor con patrón de cadena como primer argumento
+let ir = new RegExp(/ab+c/, 'i') // constructor con expresión regular literal como primer argumento (a partir de ECMAScript 6)
+
+
+
+//cuando la expresion no es global se detine en la primera coincidencia.
+
+//flas = bandera
+/*
+ g = globar
+ i = case insensitive = cuando tiene la i le dice que tenga encuenta mayusculas y minusculas. Y cuando no tine la i solo minusculas
+*/
+let string = 'en los bosque en En hay EN en 8 42 56 74       '
+
+const rexget = /\s/g;
+
+console.log(string.match(rexget))
+
+//buscar en regext.com para mas informacion

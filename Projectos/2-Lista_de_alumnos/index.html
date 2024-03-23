@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista Alumnos</title>
+</head>
+<body>
+    <div id="container">
+       
+            <h2>Lista de Alumnos</h2>
+            <form class="form" id="form" action="">
+
+                <div>
+                    <label for="name">Nombre: </label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="lastname">Apellido: </label>
+                    <input required type="text" name="lastname" id="lastname">
+                </div>
+                <div>
+                    <label for="course">Curso</label>
+                    <select required type="text" name="course" id="course">
+                        <option value="Finanzas">Finanzas</option>
+                        <option value="Programaciòn">Programaciòn</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Idiomas">Idiomas</option>
+                        <option value="Sociales">Sociales</option>
+
+                    </select>
+                </div>
+                <div>
+                    <label for="approved">Aprobado</label>
+                    <!-- debe tener un valor (radio) -->
+                   <input id="approved" type="radio" name="typeState" value="Aprobado" required> 
+                   <label for="reprobate">Reprobado</label>
+                   <input id="reprobate" type="radio" name="typeState" value="Reprobado"> 
+                </div>
+               <div>
+                   <button id="btn-send">Enviar</button>
+               </div>
+            </form>
+        
+
+        <div id="container-table">
+            <table id="site-table">
+                <tr>
+                    <th>Nº</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>CURSO</th>
+                    <th>ESTADO</th>
+                    <th>ELIMINAR</th>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
