@@ -1,0 +1,1 @@
+Aqui tenemos la info enviada desde un archivo .txt
