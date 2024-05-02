@@ -1,12 +1,16 @@
+
+
+<h1 align="center">Mis Apuntes de JavaScript</h1>
+
+¡Bienvenido a mi repositorio de apuntes de JavaScript!
+
+En este repositorio, encontrarás todos mis apuntes y notas que tomé mientras realizaba el curso de JavaScript. Desde conceptos básicos hasta temas más avanzados, aquí encontrarás recursos útiles para aprender y repasar JavaScript.
+
+---
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo" width="200">
 </p>
-
-# <p align="center">Curso de JavaScript</p>
-
-¡Bienvenido al repositorio del curso de JavaScript!
-
-Este repositorio contiene material y recursos para aprender y practicar JavaScript, un lenguaje de programación ampliamente utilizado en el desarrollo web y de aplicaciones.
+---
 
 ## Contenido
 
