@@ -1,4 +1,8 @@
-# Curso de JavaScript
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo" width="200">
+</p>
+
+# <p align="center">Curso de JavaScript</p>
 
 ¡Bienvenido al repositorio del curso de JavaScript!
 
@@ -6,17 +10,15 @@ Este repositorio contiene material y recursos para aprender y practicar JavaScri
 
 ## Contenido
 
-- **Introducción a JavaScript**: Una introducción básica al lenguaje JavaScript y su importancia en el desarrollo web.
-- **Fundamentos**: Conceptos fundamentales de JavaScript, incluyendo variables, tipos de datos, operadores, y estructuras de control.
-- **Funciones**: Aprende a definir y utilizar funciones en JavaScript.
-- **Objetos y Arrays**: Trabaja con objetos y arrays, dos estructuras de datos fundamentales en JavaScript.
-- **DOM Manipulation**: Manipulación del Document Object Model (DOM) para interactuar con elementos HTML.
-- **Eventos**: Manejo de eventos para crear interactividad en aplicaciones web.
-- **AJAX y Fetch API**: Realización de peticiones asíncronas con JavaScript utilizando AJAX y la Fetch API.
-- **ES6 y Funciones Asíncronas**: Características modernas de JavaScript, incluyendo arrow functions, promesas, y funciones asíncronas.
-- **Frameworks y Bibliotecas**: Introducción a los frameworks y bibliotecas populares de JavaScript, como React, Angular y Vue.js.
-
-
+- :small_blue_diamond: **Introducción a JavaScript**: Una introducción básica al lenguaje JavaScript y su importancia en el desarrollo web.
+- :green_heart: **Fundamentos**: Conceptos fundamentales de JavaScript, incluyendo variables, tipos de datos, operadores, y estructuras de control.
+- :red_circle: **Funciones**: Aprende a definir y utilizar funciones en JavaScript.
+- :purple_heart: **Objetos y Arrays**: Trabaja con objetos y arrays, dos estructuras de datos fundamentales en JavaScript.
+- :orange_circle: **DOM Manipulation**: Manipulación del Document Object Model (DOM) para interactuar con elementos HTML.
+- :brown_circle: **Eventos**: Manejo de eventos para crear interactividad en aplicaciones web.
+- :large_blue_diamond: **AJAX y Fetch API**: Realización de peticiones asíncronas con JavaScript utilizando AJAX y la Fetch API.
+- :teal_circle: **ES6 y Funciones Asíncronas**: Características modernas de JavaScript, incluyendo arrow functions, promesas, y funciones asíncronas.
+- :large_blue_circle: **Frameworks y Bibliotecas**: Introducción a los frameworks y bibliotecas populares de JavaScript, como React, Angular y Vue.js.
 
 ## Recursos Adicionales
 
@@ -32,3 +34,4 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 *(Reemplaza este texto con información específica sobre tu curso, como los objetivos del curso, el plan de estudios, enlaces a recursos adicionales, etc.)*
+
